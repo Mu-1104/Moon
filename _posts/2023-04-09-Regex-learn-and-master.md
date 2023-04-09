@@ -2,7 +2,7 @@
 layout: post
 title: "My Journey with Regular Expressions"
 date: 2023-04-09
-excerpt: "In this post, I'll share my learning resources, timeline, and notes"
+excerpt: "In this post, I share my learning resources, timeline, and notes."
 tags: [Regex, CS]
 comments: true
 ---
@@ -58,7 +58,7 @@ Learning Regular Expressions has been an exciting and challenging journey. In th
 > Please stay tuned for updates.
 
 ## Section 5: Conclusion
-In this final section, I'll wrap up my learning journey and share my plans for the future, including how I intend to apply my newfound regex skills in my personal and professional life.
+> Please stay tuned for updates.
 
 Thank you for joining me on my journey to learn Regular Expressions. I hope my blog has been helpful and inspiring to you!
 
