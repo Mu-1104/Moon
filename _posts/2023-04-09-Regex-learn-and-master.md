@@ -2,7 +2,7 @@
 layout: post
 title: "My Journey with Regular Expressions"
 date: 2023-04-09
-excerpt: "In this post, I share my learning resources, timeline, and notes."
+excerpt: "In this post, I shared my learning resources, timeline, and notes."
 tags: [Regex, CS]
 comments: true
 ---
