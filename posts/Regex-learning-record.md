@@ -22,9 +22,7 @@ Welcome to this post, where I will be documenting my journey of learning Regular
 * Conclusion
 
 ## Section 1: Learning Resources
-To begin my Regular Expressions journey, I've explored and compiled a list of resources that have greatly helped me understand and practice regex. Here are my top picks:
 
-### Online tutorials and courses:
 * [regular-expressions.info - Comprehensive regex guide](https://www.regular-expressions.info/quickstart.html)
 
 * [regexr.com - Regex testing and explanation tool](https://regex101.com/)
