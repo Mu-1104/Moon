@@ -3,7 +3,7 @@ layout: page
 title: About Mu's Blog
 tags: 
 date: 2023-04-09
-comments: true
+comments: false
 ---
     
 
@@ -17,4 +17,5 @@ Please don't hesitate to reach out to me if you have any tips or advice, or if y
 
 ## Getting Started
 To visit my posts, please check out the [All Posts - Mu's blog](https://mu-1104.github.io/posts/) for more information.
+
 To visit my tages, please check out the [Tag Archive - Mu's blog](https://mu-1104.github.io/tags/) for more information.
