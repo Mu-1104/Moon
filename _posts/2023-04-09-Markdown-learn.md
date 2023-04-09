@@ -7,14 +7,6 @@ tags: [Markdown, CS]
 comments: true
 ---
 
----
-layout: post
-title: "My journey with Markdown"
-date: 2023-04-09
-excerpt: "This is a collection of resources about Markdown"
-tags: [Markdown, CS]
-comments: true
----
 
 # Learning Resources
 
