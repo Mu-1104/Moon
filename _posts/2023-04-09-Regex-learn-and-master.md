@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "My Journey with Regular Expressions: A Comprehensive Learning Blog"
+title: "My Journey with Regular Expressions"
 date: 2023-04-09
-excerpt: ""
+excerpt: "In this post, I'll share my learning resources, timeline, and notes"
 tags: [Regex, CS]
 comments: true
 ---
