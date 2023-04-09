@@ -147,6 +147,86 @@ Note: The last two relative links in the table above will work for images in a p
 
 For more information, see ["Relative Links."](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#relative-links)
 
+## Specifying the theme an image is shown to
+
+You can specify the theme an image is displayed for in Markdown by using the HTML `<picture>` element in combination with the `prefers-color-scheme` media feature. We distinguish between light and dark color modes, so there are two options available. You can use these options to display images optimized for dark or light backgrounds. This is particularly helpful for transparent PNG images.
+
+For example, the following code displays a sun image for light themes and a moon for dark themes:
+
+```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+</picture>
+The old method of specifying images based on the theme, by using a fragment appended to the URL (#gh-dark-mode-only or #gh-light-mode-only), is deprecated and will be removed in favor of the new method described above.
+```
+
+The old method of specifying images based on the theme, by using a fragment appended to the URL (`#gh-dark-mode-only` or `#gh-light-mode-only`), is deprecated and will be removed in favor of the new method described above.
+
+## Lists
+
+You can make an unordered list by preceding one or more lines of text with -, *, or +.
+```
+- George Washington
+* John Adams
++ Thomas Jefferson
+```
+
+![](https://docs.github.com/assets/cb-29639/mw-1000/images/help/writing/unordered-list-rendered.webp)
+
+To order your list, precede each line with a number.
+
+```
+1. James Madison
+2. James Monroe
+3. John Quincy Adams
+```
+
+![](https://docs.github.com/assets/cb-30507/mw-1000/images/help/writing/ordered-list-rendered.webp)
+
+## Nested Lists
+
+You can create a nested list by indenting one or more list items below another item.
+
+To create a nested list using the web editor on GitHub or a text editor that uses a monospaced font, like Visual Studio Code, you can align your list visually. Type space characters in front of your nested list item until the list marker character (- or *) lies directly below the first character of the text in the item above it.
+
+```
+1. First list item
+   - First nested list item
+     - Second nested list item
+```
+
+Note: In the web-based editor, you can indent or dedent one or more lines of text by first highlighting the desired lines and then using Tab or Shift+Tab respectively.
+
+![](https://docs.github.com/assets/cb-24122/mw-1000/images/help/writing/nested-list-alignment.webp)
+
+![](https://docs.github.com/assets/cb-26191/mw-1000/images/help/writing/nested-list-example-1.webp)
+
+To create a nested list in the comment editor on GitHub, which doesn't use a monospaced font, you can look at the list item immediately above the nested list and count the number of characters that appear before the content of the item. Then type that number of space characters in front of the nested list item.
+
+In this example, you could add a nested list item under the list item 100. First list item by indenting the nested list item a minimum of five spaces, since there are five characters (100. ) before First list item.
+
+```
+1.   First list item
+     - First nested list item
+```
+
+![](https://docs.github.com/assets/cb-17039/mw-1000/images/help/writing/nested-list-example-3.webp)
+
+You can create multiple levels of nested lists using the same method. For example, because the first nested list item has seven characters (␣␣␣␣␣-␣) before the nested list content First nested list item, you would need to indent the second nested list item by seven spaces.
+
+```
+1.   First list item
+     - First nested list item
+       - Second nested list item
+```
+
+![](https://docs.github.com/assets/cb-27649/mw-1000/images/help/writing/nested-list-example-2.webp)
+
+For more examples, see the [GitHub Flavored Markdown Spec.](https://github.github.com/gfm/#example-265)
+
+
 > Please stay tuned for updates.
 
 # Learning Record
