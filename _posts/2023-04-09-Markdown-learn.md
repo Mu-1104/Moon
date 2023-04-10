@@ -30,7 +30,7 @@ comments: true
 
 ## Headings
 
-To create a heading, add one to six # symbols before your heading text. The number of # you use will determine the hierarchy level and typeface size of the heading.
+Add one to six # symbols before your heading text. The number of # you use will determine the hierarchy level and typeface size of the heading.
 
 ```
 # A first-level heading
@@ -42,7 +42,7 @@ To create a heading, add one to six # symbols before your heading text. The numb
 
 ## Styling text
 
-You can indicate emphasis with **bold**, _italic_, ~~strikethrough~~, ***all bold and italic***, <sub>subscript</sub>, or <sup>superscript</sup> text in comment fields and .md files.
+Indicate emphasis with **bold**, _italic_, ~~strikethrough~~, ***all bold and italic***, <sub>subscript</sub>, or <sup>superscript</sup> text in comment fields and .md files.
 
 | Style	| Syntax | Keyboard shortcut | Example | Output |
 | :---- | :----  | :---- | :---- | :---- |
@@ -57,7 +57,7 @@ You can indicate emphasis with **bold**, _italic_, ~~strikethrough~~, ***all bol
 
 ## Quoting text
 
-You can quote text with a >.
+Quote text with a >.
 
 Text that is not a quote
 
@@ -70,13 +70,13 @@ Quoted text is indented, with a different type color.
 ###### Tip: When viewing a conversation, you can automatically quote text in a comment by highlighting the text, then typing R. You can quote an entire comment by clicking , then Quote reply. For more information about keyboard shortcuts, see "[Keyboard shortcuts](https://docs.github.com/en/get-started/using-github/keyboard-shortcuts)"
 
 ## Quoting code
-You can call out code or a command within a sentence with single backticks. The text within the backticks will not be formatted. You can also press the Command+E (Mac) or Ctrl+E (Windows/Linux) keyboard shortcut to insert the backticks for a code block within a line of Markdown.
+Call out code or a command within a sentence with single backticks. The text within the backticks will not be formatted. You can also press the Command+E (Mac) or Ctrl+E (Windows/Linux) keyboard shortcut to insert the backticks for a code block within a line of Markdown.
 
 Use `git status` to list all new or modified files that haven't yet been committed.
 
 ![](https://docs.github.com/assets/cb-34564/mw-1000/images/help/writing/inline-code-rendered.webp)
 
-To format code or text into its own distinct block, use triple backticks.
+To format code or text into its own distinct block, use **triple** backticks.
 
 Some basic Git commands are:
 
@@ -131,7 +131,9 @@ You can display an image by adding ! and wrapping the alt text in [ ]. Alt text 
 
 GitHub supports embedding images into your issues, pull requests, discussions, comments and .md files. You can display an image from your repository, add a link to an online image, or upload an image. For more information, see ["Uploading assets."](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#supported-color-models)
 
+```
 Tip: When you want to display an image that is in your repository, use relative links instead of absolute links.
+```
 
 Here are some examples for using relative links to display an image.
 
@@ -226,16 +228,133 @@ You can create multiple levels of nested lists using the same method. For exampl
 
 For more examples, see the [GitHub Flavored Markdown Spec.](https://github.github.com/gfm/#example-265)
 
+## Task lists
 
-> Please stay tuned for updates.
+To create a task list, preface list items with a hyphen and space followed by [ ]. To mark a task as complete, use [x].
+
+```
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+```
+
+![](https://docs.github.com/assets/cb-64629/mw-1000/images/help/writing/task-list-rendered-simple.webp)
+
+If a task list item description begins with a parenthesis, you'll need to escape it with \:
+
+- [ ] \(Optional) Open a followup issue
+
+For more information, see  ["About task lists."](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists)
+
+## Mentioning people and teams
+
+You can mention a person or team on GitHub by typing @ plus their username or team name. This will trigger a notification and bring their attention to the conversation. People will also receive a notification if you edit a comment to mention their username or team name. For more information about notifications, see [About notifications."](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/about-notifications)
+
+```
+Note: A person will only be notified about a mention if the person has read access to the repository and, if the repository is owned by an organization, the person is a member of the organization.
+```
+
+`@github/support What do you think about these updates?`
+
+![](https://docs.github.com/assets/cb-20838/mw-1000/images/help/writing/mention-rendered.webp)
+
+When you mention a parent team, members of its child teams also receive notifications, simplifying communication with multiple groups of people. For more information, see "About teams."
+
+Typing an @ symbol will bring up a list of people or teams on a project. The list filters as you type, so once you find the name of the person or team you are looking for, you can use the arrow keys to select it and press either tab or enter to complete the name. For teams, enter the @organization/team-name and all members of that team will get subscribed to the conversation.
+
+The autocomplete results are restricted to repository collaborators and any other participants on the thread.
+
+## Referencing issues and pull requests
+
+You can bring up a list of suggested issues and pull requests within the repository by typing #. Type the issue or pull request number or title to filter the list, and then press either tab or enter to complete the highlighted result.
+
+For more information, see ["Autolinked references and URLs."](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls)
+
+## Uploading assets
+
+You can upload assets like images by dragging and dropping, selecting from a file browser, or pasting. You can upload assets to issues, pull requests, comments, and `.md` files in your repository.
+
+## Using emoji
+You can add emoji to your writing by typing :EMOJICODE:, a colon followed by the name of the emoji.
+
+`@octocat :+1: This PR looks great - it's ready to merge! :shipit:`
+
+![](https://docs.github.com/assets/cb-28666/mw-1000/images/help/writing/emoji-rendered.webp)
+
+For a full list of available emoji and codes, see the [Emoji-Cheat-Sheet.](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+
+## Paragraphs
+You can create a new paragraph by leaving a blank line between lines of text.
+
+## Footnotes
+You can add footnotes to your content by using this bracket syntax:
+
+```
+Here is a simple footnote[^1].
+
+A footnote can also have multiple lines[^2].
+
+[^1]: My reference.
+[^2]: To add line breaks within a footnote, prefix new lines with 2 spaces.
+  This is a second line.
+```
+
+The footnote will render like this:
+
+![](https://docs.github.com/assets/cb-59577/mw-1000/images/help/writing/footnote-rendered.webp)
+
+```
+Note: The position of a footnote in your Markdown does not influence where the footnote will be rendered. You can write a footnote right after your reference to the footnote, and the footnote will still render at the bottom of the Markdown.
+```
+
+## Hiding content with comments
+
+You can tell GitHub to hide content from the rendered Markdown by placing the content in an HTML comment.
+
+` <!-- This content will not appear in the rendered Markdown --> `
+
+## Ignoring Markdown formatting
+
+You can tell GitHub to ignore (or escape) Markdown formatting by using \ before the Markdown character.
+
+` Let's rename \*our-new-project\* to \*our-old-project\*. `
+
+![](https://docs.github.com/assets/cb-16282/mw-1000/images/help/writing/escaped-character-rendered.webp)
+
+For more information on backslashes, see Daring Fireball's ["Markdown Syntax."](https://daringfireball.net/projects/markdown/syntax#backslash)
+
+## Disabling Markdown rendering
+
+When viewing a Markdown file, you can click  at the top of the file to disable Markdown rendering and view the file's source instead.
+
+![](https://docs.github.com/assets/cb-36071/mw-1000/images/help/writing/display-markdown-as-source.webp)
+
+Disabling Markdown rendering enables you to use source view features, such as line linking, which is not possible when viewing rendered Markdown files.
+
+# Further reading
+
+* [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
+
+* ["About writing and formatting on GitHub"](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github)
+
+* ["Working with advanced formatting"](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting)
+
+* ["Quickstart for writing on GitHub"](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github)
+
+
+
 
 # Learning Record
   
 Starting time: 2023-04-09
   
-Ending time: 
+Ending time: 2023-04-09
 
 What I learnt: 
 
+* - [x][Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) 
 
+# Others
+
+Just wanna speak out, I wrote this blog using Markdown!
 
