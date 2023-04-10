@@ -206,9 +206,7 @@ The footnote will render like this:
 
 ![](https://docs.github.com/assets/cb-59577/mw-1000/images/help/writing/footnote-rendered.webp)
 
-```
-Note: The position of a footnote in your Markdown does not influence where the footnote will be rendered. You can write a footnote right after your reference to the footnote, and the footnote will still render at the bottom of the Markdown.
-```
+> Note: The position of a footnote in your Markdown does not influence where the footnote will be rendered. You can write a footnote right after your reference to the footnote, and the footnote will still render at the bottom of the Markdown.
 
 ## Hiding content with comments
 
