@@ -10,21 +10,21 @@ comments: true
 
 # Learning Resources
 
-1. [the Markdown official website](https://daringfireball.net/projects/markdown/) 
+* [the Markdown official website](https://daringfireball.net/projects/markdown/) 
 
-2. [GitHub's Markdown guide](https://guides.github.com/features/mastering-markdown/)
+* [GitHub's Markdown guide](https://guides.github.com/features/mastering-markdown/)
 
-3. Check out Markdown tutorial websites:
-    1. [Markdown Tutorial](https://www.markdowntutorial.com/) 
-    2. [Learn X in Y minutes](https://learnxinyminutes.com/docs/markdown/)
+* Check out Markdown tutorial websites:
+  - [Markdown Tutorial](https://www.markdowntutorial.com/) 
+  - [Learn X in Y minutes](https://learnxinyminutes.com/docs/markdown/)
 
-4. Download Markdown editors for practice: 
-    1. [Typora](https://typora.io/)
-    2. [StackEdit](https://stackedit.io/)
+* Download Markdown editors for practice: 
+  - [Typora](https://typora.io/)
+  - [StackEdit](https://stackedit.io/)
   
-5. Explore online Markdown editors:
-    1. [Dillinger](https://dillinger.io/)
-    2. [Markdown Live Preview](https://markdownlivepreview.com/)
+* Explore online Markdown editors:
+  - [Dillinger](https://dillinger.io/)
+  - [Markdown Live Preview](https://markdownlivepreview.com/)
   
 # Some Notes
 
@@ -61,7 +61,7 @@ Quote text with a >.
 
 Text that is not a quote
 
-> Text that is a quote
+`> Text that is a quote`
 
 Quoted text is indented, with a different type color.
 
@@ -72,7 +72,7 @@ Quoted text is indented, with a different type color.
 ## Quoting code
 Call out code or a command within a sentence with single backticks. The text within the backticks will not be formatted. You can also press the Command+E (Mac) or Ctrl+E (Windows/Linux) keyboard shortcut to insert the backticks for a code block within a line of Markdown.
 
-Use `git status` to list all new or modified files that haven't yet been committed.
+Use \`git status\` to list all new or modified files that haven't yet been committed.
 
 ![](https://docs.github.com/assets/cb-34564/mw-1000/images/help/writing/inline-code-rendered.webp)
 
@@ -80,11 +80,15 @@ To format code or text into its own distinct block, use **triple** backticks.
 
 Some basic Git commands are:
 
-```
+\```
+
 git status
+
 git add
+
 git commit
-```
+
+\```
 
 ![](https://docs.github.com/assets/cb-53043/mw-1000/images/help/writing/code-block-rendered.webp)
 
@@ -95,17 +99,14 @@ If you are frequently editing code snippets and tables, you may benefit from ena
 ## Supported color models
 In issues, pull requests, and discussions, you can call out colors within a sentence by using backticks. A supported color model within backticks will display a visualization of the color.
 
-The background color is `#ffffff` for light mode and `#000000` for dark mode.
+The background color is \`#ffffff\` for light mode and \`#000000\` for dark mode.
 
 ![](https://docs.github.com/assets/cb-24193/mw-1000/images/help/writing/supported-color-models-rendered.webp)
 
-```
-Notes:
+###### Notes:
 
 A supported color model cannot have any leading or trailing spaces within the backticks.
 The visualization of the color is only supported in issues, pull requests, and discussions.
-
-```
 
 ## Section links
 
@@ -119,7 +120,8 @@ You can define relative links and image paths in your rendered files to help rea
 
 A relative link is a link that is relative to the current file. For example, if you have a README file in root of your repository, and you have another file in docs/CONTRIBUTING.md, the relative link to CONTRIBUTING.md in your README might look like this:
 
-[Contribution guidelines for this project](docs/CONTRIBUTING.md)
+\[Contribution guidelines for this project](docs/CONTRIBUTING.md\)
+
 GitHub will automatically transform your relative link or image path based on whatever branch you're currently on, so that the link or path always works. The path of the link will be relative to the current file. Links starting with / will be relative to the repository root. You can use all relative link operands, such as ./ and ../.
 
 Relative links are easier for users who clone your repository. Absolute links may not work in clones of your repository - we recommend using relative links to refer to other files within your repository.
@@ -127,13 +129,13 @@ Relative links are easier for users who clone your repository. Absolute links ma
 ## Images
 You can display an image by adding ! and wrapping the alt text in [ ]. Alt text is a short text equivalent of the information in the image. Then, wrap the link for the image in parentheses ().
 
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
+\!\[Optional\](https://myoctocat.com/assets/images/base-octocat.svg)
+
+![Optional](https://myoctocat.com/assets/images/base-octocat.svg)
 
 GitHub supports embedding images into your issues, pull requests, discussions, comments and .md files. You can display an image from your repository, add a link to an online image, or upload an image. For more information, see ["Uploading assets."](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#supported-color-models)
 
-```
-Tip: When you want to display an image that is in your repository, use relative links instead of absolute links.
-```
+###### Tip: When you want to display an image that is in your repository, use relative links instead of absolute links.
 
 Here are some examples for using relative links to display an image.
 
@@ -162,6 +164,7 @@ For example, the following code displays a sun image for light themes and a moon
   <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
 </picture>
 The old method of specifying images based on the theme, by using a fragment appended to the URL (#gh-dark-mode-only or #gh-light-mode-only), is deprecated and will be removed in favor of the new method described above.
+
 ```
 
 The old method of specifying images based on the theme, by using a fragment appended to the URL (`#gh-dark-mode-only` or `#gh-light-mode-only`), is deprecated and will be removed in favor of the new method described above.
@@ -169,6 +172,7 @@ The old method of specifying images based on the theme, by using a fragment appe
 ## Lists
 
 You can make an unordered list by preceding one or more lines of text with -, *, or +.
+
 ```
 - George Washington
 * John Adams
@@ -199,7 +203,7 @@ To create a nested list using the web editor on GitHub or a text editor that use
      - Second nested list item
 ```
 
-Note: In the web-based editor, you can indent or dedent one or more lines of text by first highlighting the desired lines and then using Tab or Shift+Tab respectively.
+###### Note: In the web-based editor, you can indent or dedent one or more lines of text by first highlighting the desired lines and then using Tab or Shift+Tab respectively.
 
 ![](https://docs.github.com/assets/cb-24122/mw-1000/images/help/writing/nested-list-alignment.webp)
 
@@ -242,6 +246,8 @@ To create a task list, preface list items with a hyphen and space followed by [ 
 
 If a task list item description begins with a parenthesis, you'll need to escape it with \:
 
+` - [ ] \(Optional) Open a followup issue `
+
 - [ ] \(Optional) Open a followup issue
 
 For more information, see  ["About task lists."](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists)
@@ -250,9 +256,7 @@ For more information, see  ["About task lists."](https://docs.github.com/en/get-
 
 You can mention a person or team on GitHub by typing @ plus their username or team name. This will trigger a notification and bring their attention to the conversation. People will also receive a notification if you edit a comment to mention their username or team name. For more information about notifications, see [About notifications."](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/about-notifications)
 
-```
-Note: A person will only be notified about a mention if the person has read access to the repository and, if the repository is owned by an organization, the person is a member of the organization.
-```
+###### Note: A person will only be notified about a mention if the person has read access to the repository and, if the repository is owned by an organization, the person is a member of the organization.
 
 `@github/support What do you think about these updates?`
 
