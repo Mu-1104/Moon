@@ -65,7 +65,7 @@ Text that is a quote
 
 ![](https://docs.github.com/assets/cb-30028/mw-1000/images/help/writing/quoted-text-rendered.webp)
 
-###### Tip: When viewing a conversation, you can automatically quote text in a comment by highlighting the text, then typing R. You can quote an entire comment by clicking , then Quote reply. For more information about keyboard shortcuts, see "[Keyboard shortcuts](https://docs.github.com/en/get-started/using-github/keyboard-shortcuts)"
+> Tip: When viewing a conversation, you can automatically quote text in a comment by highlighting the text, then typing R. You can quote an entire comment by clicking , then Quote reply. For more information about keyboard shortcuts, see "[Keyboard shortcuts](https://docs.github.com/en/get-started/using-github/keyboard-shortcuts)
 
 ## Quoting code
 
@@ -87,9 +87,9 @@ git commit
 
 ![](https://docs.github.com/assets/cb-53043/mw-1000/images/help/writing/code-block-rendered.webp)
 
-###### For more information, see ["Creating and highlighting code blocks."](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks)
-
-###### If you are frequently editing code snippets and tables, you may benefit from enabling a fixed-width font in all comment fields on GitHub. For more information, see ["About writing and formatting on GitHub."](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github#enabling-fixed-width-fonts-in-the-editor)
+> For more information, see ["Creating and highlighting code blocks."](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks)
+>
+> If you are frequently editing code snippets and tables, you may benefit from enabling a fixed-width font in all comment fields on GitHub. For more information, see ["About writing and formatting on GitHub."](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github#enabling-fixed-width-fonts-in-the-editor)
 
 ## Images
 
@@ -97,11 +97,11 @@ git commit
 
 ![](https://myoctocat.com/assets/images/base-octocat.svg)
 
-###### GitHub supports embedding images into your issues, pull requests, discussions, comments and .md files. You can display an image from your repository, add a link to an online image, or upload an image. For more information, see ["Uploading assets."](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#supported-color-models)
+> GitHub supports embedding images into your issues, pull requests, discussions, comments and .md files. You can display an image from your repository, add a link to an online image, or upload an image. For more information, see ["Uploading assets."](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#supported-color-models)
+> 
+> Tip: when you want to display an image that is in your repository, use relative links instead of absolute links.
 
-###### Tip: when you want to display an image that is in your repository, use relative links instead of absolute links.
-
-#### Here are some examples for using relative links to display an image.
+### Here are some examples for using relative links to display an image.
 
 | Context  | Relative Link |
 | :------------ |:-------------|
@@ -111,9 +111,9 @@ git commit
 | In a `.md` file in another repository | `/../../../../github/docs/blob/main/assets/images/electrocat.png`|
 | In issues, pull requests and comments of another repository| `../../../github/docs/blob/main/assets/images/electrocat.png?raw=true`|
 
-###### Note: The last two relative links in the table above will work for images in a private repository only if the viewer has at least read access to the private repository that contains these images.
-
-###### For more information, see ["Relative Links."](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#relative-links)
+> Note: The last two relative links in the table above will work for images in a private repository only if the viewer has at least read access to the private repository that contains these images.
+> 
+> For more information, see ["Relative Links."](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#relative-links)
 
 ## Lists
 
@@ -143,11 +143,11 @@ To order your list, precede each line with a number.
      - Second nested list item
 ```
 
-###### Note: In the web-based editor, you can indent or dedent one or more lines of text by first highlighting the desired lines and then using Tab or Shift+Tab respectively.
+> Note: In the web-based editor, you can indent or dedent one or more lines of text by first highlighting the desired lines and then using Tab or Shift+Tab respectively.
 
 ![](https://docs.github.com/assets/cb-27649/mw-1000/images/help/writing/nested-list-example-2.webp)
 
-###### For more examples, see the [GitHub Flavored Markdown Spec.](https://github.github.com/gfm/#example-265)
+> For more examples, see the [GitHub Flavored Markdown Spec.](https://github.github.com/gfm/#example-265)
 
 ## Task lists
 
@@ -167,7 +167,7 @@ If a task list item description begins with a parenthesis, you'll need to escape
 
 - [ ] \(Optional) Open a followup issue
 
-###### For more information, see  ["About task lists."](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists)
+> For more information, see  ["About task lists."](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists)
 
 ## Uploading assets
 
@@ -180,7 +180,7 @@ You can add emoji to your writing by typing :EMOJICODE:, a colon followed by the
 
 ![](https://docs.github.com/assets/cb-28666/mw-1000/images/help/writing/emoji-rendered.webp)
 
-###### For a full list of available emoji and codes, see the [Emoji-Cheat-Sheet.](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+> For a full list of available emoji and codes, see the [Emoji-Cheat-Sheet.](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
 
 ## Paragraphs
 
@@ -226,7 +226,7 @@ You can tell GitHub to ignore (or escape) Markdown formatting by using \ before 
 
 ![](https://docs.github.com/assets/cb-16282/mw-1000/images/help/writing/escaped-character-rendered.webp)
 
-###### For more information on backslashes, see Daring Fireball's ["Markdown Syntax."](https://daringfireball.net/projects/markdown/syntax#backslash)
+> For more information on backslashes, see Daring Fireball's ["Markdown Syntax."](https://daringfireball.net/projects/markdown/syntax#backslash)
 
 ## Disabling Markdown rendering
 
@@ -250,7 +250,7 @@ Disabling Markdown rendering enables you to use source view features, such as li
   
 Starting time: 2023-04-09
   
-Ending time: 2023-04-09
+Ending time: 2023-04-10
 
 What I learnt: 
 
@@ -260,7 +260,8 @@ What I learnt:
 
 * [Organizing information with collapsed sections](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections)
 
-* [Creating and highlighting code blocks](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks). 
+* [Creating and highlighting code blocks](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks)
+
 * [Awesome Markdown](https://github.com/mundimark/awesome-markdown)
 
 # Others
