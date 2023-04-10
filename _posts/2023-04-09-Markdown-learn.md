@@ -103,9 +103,7 @@ The background color is \`#ffffff\` for light mode and \`#000000\` for dark mode
 
 ![](https://docs.github.com/assets/cb-24193/mw-1000/images/help/writing/supported-color-models-rendered.webp)
 
-###### Notes:
-
-A supported color model cannot have any leading or trailing spaces within the backticks.
+###### Notes: A supported color model cannot have any leading or trailing spaces within the backticks.
 The visualization of the color is only supported in issues, pull requests, and discussions.
 
 ## Section links
@@ -147,7 +145,7 @@ Here are some examples for using relative links to display an image.
 | In a `.md` file in another repository | `/../../../../github/docs/blob/main/assets/images/electrocat.png`|
 | In issues, pull requests and comments of another repository| `../../../github/docs/blob/main/assets/images/electrocat.png?raw=true`|
 
-Note: The last two relative links in the table above will work for images in a private repository only if the viewer has at least read access to the private repository that contains these images.
+###### Note: The last two relative links in the table above will work for images in a private repository only if the viewer has at least read access to the private repository that contains these images.
 
 For more information, see ["Relative Links."](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#relative-links)
 
@@ -315,7 +313,7 @@ Note: The position of a footnote in your Markdown does not influence where the f
 
 You can tell GitHub to hide content from the rendered Markdown by placing the content in an HTML comment.
 
-` <!-- This content will not appear in the rendered Markdown --> `
+\<!-- This content will not appear in the rendered Markdown --\> 
 
 ## Ignoring Markdown formatting
 
@@ -356,7 +354,7 @@ Ending time: 2023-04-09
 
 What I learnt: 
 
-- [x][Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) 
+- [x] [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) 
 
 # Others
 
