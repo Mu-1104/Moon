@@ -17,6 +17,9 @@ comments: true
 * Check out Markdown tutorial websites:
   - [Markdown Tutorial](https://www.markdowntutorial.com/) 
   - [Learn X in Y minutes](https://learnxinyminutes.com/docs/markdown/)
+  - [Markdown 官方教程](https://markdown.com.cn/)
+  - [Markdown 菜鸟教程](https://www.runoob.com/markdown/md-tutorial.html)
+  - [Awesome Markdown](https://github.com/mundimark/awesome-markdown)
 
 * Download Markdown editors for practice: 
   - [Typora](https://typora.io/)
@@ -257,7 +260,8 @@ What I learnt:
 
 * [Organizing information with collapsed sections](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-collapsed-sections)
 
-* [Creating and highlighting code blocks](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks)
+* [Creating and highlighting code blocks](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks). 
+* [Awesome Markdown](https://github.com/mundimark/awesome-markdown)
 
 # Others
 
