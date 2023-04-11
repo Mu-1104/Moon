@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ChatGPT Prompts"
+title: "My Learning Log of CS"
 date: 2023-04-11
 excerpt: "In this article, I will document my journey of learning computer science"
 tags: [CS, LEARNING LOG]
