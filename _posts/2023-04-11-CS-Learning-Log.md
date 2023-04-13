@@ -7,8 +7,6 @@ tags: [CS, LEARNING LOG]
 comments: true
 ---
 
-{::options parse_block_html="true" /}
-
 # Table of Contents  
 * Introduction   
 * Yearly Planning and Review
@@ -24,7 +22,7 @@ In this post, I will document my journey of learning computer science, including
 
 As of today (04/11), my current learning goals include achieving a strong proficiency in Python, SQL, Java, Markdown, and regular expressions (Regex). Additionally, I plan to gain a foundational understanding of C, C++, data structures and algorithms, computer networking, and web development. I understand that this plan is merely an ideal expectation, and I am open to making adjustments based on my actual learning progress.
 
-<details>
+<details markdown="1">
     <summary> Proficiency </summary>
 
 Python  
@@ -39,7 +37,7 @@ Regular expressions
     
 </details>
 
-<details>
+<details markdown="1">
     <summary> Foundational Knowledge </summary> 
 
 C  
@@ -56,7 +54,7 @@ Web development
 
 # Monthly Planning and Review
 
-<details>
+<details markdown="1">
     <summary> April </summary>   
    
 - [ ] Regular Expression   
@@ -105,7 +103,7 @@ Web development
 
 # Weekly Planning and Review  
 
-<details>
+<details markdown="1">
     <summary> April 10th - April 16th </summary>
 
 - [ ] Regular Expression   
@@ -148,19 +146,19 @@ Web development
     
 </details>
 
-<details>
+<details markdown="1">
     <summary> April 17th - April 23rd </summary> 
 
 </details>
 
-<details> 
+<details markdown="1">
     <summary> April 24th - April 30th </summary> 
 
 </details>
 
 # Daily Tracking
 
-<details>
+<details markdown="1">
     <summary> April 11th </summary> 
 
 - [ ] [Regular Expressions Tutorial](https://www.regular-expressions.info/tutorial.html) 
