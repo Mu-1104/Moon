@@ -8,11 +8,11 @@ comments: true
 ---
 
 # Table of Contents  
-* Introduction   
-* Yearly Planning and Review
-* Monthly Planning and Review  
-* Weekly Planning and Review  
-* Daily Tracking 
+ * Introduction   
+ * Yearly Planning and Review
+ * Monthly Planning and Review  
+ * Weekly Planning and Review  
+ * Daily Tracking 
 
 # Introduction  
 
@@ -22,8 +22,8 @@ In this post, I will document my journey of learning computer science, including
 
 As of today (04/11), my current learning goals include achieving a strong proficiency in Python, SQL, Java, Markdown, and regular expressions (Regex). Additionally, I plan to gain a foundational understanding of C, C++, data structures and algorithms, computer networking, and web development. I understand that this plan is merely an ideal expectation, and I am open to making adjustments based on my actual learning progress.
 
-<details markdown="1">
-    <summary> Proficiency </summary>
+<div class="details-summary">Proficiency</div>
+<div class="details-content">
 
 Python  
     
@@ -35,10 +35,10 @@ Markdown
     
 Regular expressions   
     
-</details>
+</div>
 
-<details markdown="1">
-    <summary> Foundational Knowledge </summary> 
+<div class="details-summary">Foundational Knowledge</div>
+<div class="details-content">
 
 C  
     
@@ -50,12 +50,12 @@ Computer networking
     
 Web development   
     
-</details>
+</div>
 
 # Monthly Planning and Review
 
-<details markdown="1">
-    <summary> April </summary>   
+<div class="details-summary">April</div>
+<div class="details-content">  
    
 - [ ] Regular Expression   
     
@@ -99,12 +99,12 @@ Web development
     
   - [ ] [w3schools](https://www.w3schools.com/python/default.asp): File Handling, Python Modules, Python MySQL, Python Reference, Module Reference.  
     
-</details>
+</div>
 
 # Weekly Planning and Review  
 
-<details markdown="1">
-    <summary> April 10th - April 16th </summary>
+<div class="details-summary">April 10th - April 16th</div>
+<div class="details-content">
 
 - [ ] Regular Expression   
     
@@ -144,22 +144,22 @@ Web development
     
   - [ ] [w3schools](https://www.w3schools.com/python/default.asp): File Handling, Python Modules
     
-</details>
+</div>
 
-<details markdown="1">
-    <summary> April 17th - April 23rd </summary> 
+<div class="details-summary">April 17th - April 23rd</div>
+<div class="details-content">
 
-</details>
+</div>
 
-<details markdown="1">
-    <summary> April 24th - April 30th </summary> 
+<div class="details-summary">April 24th - April 30th</div>
+<div class="details-content">
 
-</details>
+</div>
 
 # Daily Tracking
 
-<details markdown="1">
-    <summary> April 11th </summary> 
+<div class="details-summary">April 11th</div>
+<div class="details-content">
 
 - [ ] [Regular Expressions Tutorial](https://www.regular-expressions.info/tutorial.html) 
     
@@ -179,4 +179,4 @@ Web development
     
   - [ ] [SQL必知必会刷题](https://www.nowcoder.com/exam/oj?page=1&tab=SQL%E7%AF%87&topicId=298): 60 - 62 
     
- </details>
+</div>
