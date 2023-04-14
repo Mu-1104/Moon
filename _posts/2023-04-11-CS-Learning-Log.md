@@ -24,27 +24,27 @@ As of today (04/11), my current learning goals include achieving a strong profic
 
 ## Proficiency   
 
-Python  
+* Python  
     
-SQL  
+* SQL  
     
-Java  
+* Java  
     
-Markdown  
+* Markdown  
     
-Regular expressions    
+* Regular expressions    
     
 ## Foundational Knowledge   
 
-C  
+* C  
     
-C++  
+* C++  
     
-Data structures  
+* Data structures  
     
-Computer networking 
+* Computer networking 
     
-Web development    
+* Web development    
  
 # Monthly Planning and Review   
 
