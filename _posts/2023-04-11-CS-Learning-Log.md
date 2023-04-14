@@ -13,7 +13,6 @@ comments: true
 * Yearly Planning and Review
 * Monthly Planning and Review  
 * Weekly Planning and Review  
-* Daily Tracking 
 
 # Introduction  
 
@@ -23,8 +22,7 @@ In this post, I will document my journey of learning computer science, including
 
 As of today (04/11), my current learning goals include achieving a strong proficiency in Python, SQL, Java, Markdown, and regular expressions (Regex). Additionally, I plan to gain a foundational understanding of C, C++, data structures and algorithms, computer networking, and web development. I understand that this plan is merely an ideal expectation, and I am open to making adjustments based on my actual learning progress.
 
-<details>
-    <summary> Proficiency </summary>
+## Proficiency   
 
 Python  
     
@@ -34,12 +32,9 @@ Java
     
 Markdown  
     
-Regular expressions   
+Regular expressions    
     
-</details>
-
-<details>
-    <summary> Foundational Knowledge </summary> 
+## Foundational Knowledge   
 
 C  
     
@@ -49,14 +44,11 @@ Data structures
     
 Computer networking 
     
-Web development   
-    
-</details>
+Web development    
+ 
+# Monthly Planning and Review   
 
-# Monthly Planning and Review
-
-<details>
-    <summary> April </summary>   
+April   
    
 - [ ] Regular Expression   
     
@@ -98,14 +90,11 @@ Web development
     
   - [ ] [PY4E](https://www.py4e.com/html3/12-network):14-17
     
-  - [ ] [w3schools](https://www.w3schools.com/python/default.asp): File Handling, Python Modules, Python MySQL, Python Reference, Module Reference.  
+  - [ ] [w3schools](https://www.w3schools.com/python/default.asp): File Handling, Python Modules, Python MySQL, Python Reference, Module Reference.   
     
-</details>
-
 # Weekly Planning and Review  
 
-<details>
-    <summary> April 10th - April 16th </summary>
+## April 10th - April 16th  
 
 - [ ] Regular Expression   
     
@@ -144,40 +133,8 @@ Web development
   - [ ] [PY4E](https://www.py4e.com/html3/12-network):14
     
   - [ ] [w3schools](https://www.w3schools.com/python/default.asp): File Handling, Python Modules
-    
-</details>
 
-<details>
-    <summary> April 17th - April 23rd </summary> 
+## April 17th - April 23rd   
 
-</details>
+## April 24th - April 30th   
 
-<details> 
-    <summary> April 24th - April 30th </summary> 
-
-</details>
-
-# Daily Tracking
-
-<details>
-    <summary> April 11th </summary> 
-
-- [ ] [Regular Expressions Tutorial](https://www.regular-expressions.info/tutorial.html) 
-    
-  - [ ] [Introduction](https://www.regular-expressions.info/tutorial.html)    
-    
-  - [ ] [Table of Contents](https://www.regular-expressions.info/tutorialcnt.html)  
-    
-  - [ ] [Special Characters](https://www.regular-expressions.info/characters.html)   
-    
-- [ ] [CS50](https://cs50.harvard.edu/x/2023/) week 0: From 'Welcom' to 'Images, Video and Sound'  
-    
-- [ ] USTC Computer Networking: 1.1
-    
-- [ ] SQL
-    
-  - [ ] [CodeWithMosh P63 - P155](https://www.bilibili.com/video/BV1UE41147KC?p=63): Chapter 8<sup>1/2</sup>   
-    
-  - [ ] [SQL必知必会刷题](https://www.nowcoder.com/exam/oj?page=1&tab=SQL%E7%AF%87&topicId=298): 60 - 62 
-    
- </details>
