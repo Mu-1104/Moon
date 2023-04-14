@@ -7,7 +7,6 @@ tags: [CS, LEARNING LOG]
 comments: true
 ---
 
-{::options parse_block_html="true" /}
 
 # Table of Contents  
 * Introduction   
