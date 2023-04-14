@@ -1,7 +1,7 @@
 # Site
 title:              Mu's blog
 bio:                Hello, World!  
-description:        Hi there, I'm Mu and I'm new to the world of computer science. Thank you for joining me on this exciting journey!
+description:        Hi there, I'm M. Simply document everything I deem valuable to note.
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
@@ -24,6 +24,7 @@ mathjax:            true
 sass:
   sass_dir:         _sass
   style:            compressed
+  add_import_path: _sass
 
 # Comments
 disqus_shortname:   Mu-1104
@@ -62,8 +63,8 @@ steam:
 #xmpp:              username@server.com
 #hackernews:        username
 
-# Gems
-gems:
+# Plugins
+plugins:
   - jekyll-mentions
   - jekyll-feed
   - jekyll-sitemap
