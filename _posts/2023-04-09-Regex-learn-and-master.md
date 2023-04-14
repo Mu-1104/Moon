@@ -7,9 +7,6 @@ tags: [Regex, CS]
 comments: true
 ---
 
-## Introduction:
-Welcome to this post, where I will be documenting my journey of learning Regular Expressions. In this post, I'll share my learning resources, timeline, and notes to help you better understand the world of regex and maybe even inspire you to learn it too! Join me on this adventure as I delve into the powerful world of pattern matching.
-
 ## Table of Contents:
 * Learning Resources
 
