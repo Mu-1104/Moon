@@ -63,14 +63,14 @@ steam:
 #hackernews:        username
 
 # Gems
-gems:
+plugins:
   - jekyll-mentions
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
 
 jekyll-mentions:
-    base_url: https://github.com
-
+    base_url: https://github.com/Mu-1104
+    
 # Exclude list
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
