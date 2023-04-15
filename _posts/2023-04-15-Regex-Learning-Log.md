@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My journey with regex learning"
+title: "M's Regex Learning Log"
 date: Starting from April 15th 2023
 excerpt: "About Regular Expression"  
 tags: [CS, LEARNING LOG, REGULAR EXPRESSION]
