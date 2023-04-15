@@ -8,7 +8,7 @@ comments: true
 ---
 
 ## April   
-| DATE  |ACTIVITIES| DURATION | COMPLETION STATUS | TOTAL OCCURRENCES|
+| DATE  | ACTIVITIES | DURATION | COMPLETION STATUS | TOTAL OCCURRENCES|
 | :---: | :---: | :---: | :---: | :---: |
 | 04-10 | elliptical trainer & stretch | 10mins | done | 1 |
 | 04-11 | elliptical trainer & stretch | 15mins | done | 2 |
