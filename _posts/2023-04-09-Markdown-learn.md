@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My journey with Markdown"
+title: "M's Markdown Learning Log"
 date: 2023-04-09
 excerpt: "This is a collection of resources about Markdown"
 tags: [Markdown, CS]
