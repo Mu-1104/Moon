@@ -94,16 +94,12 @@ April
     
 # Weekly Planning and Review  
 
-## April 10th - April 16th  
+## April 9th - April 15th  
 
-- [ ] Regular Expression   
+- [x] Regular Expression   
     
-    - [ ] [Regular Expressions Tutorial](https://www.regular-expressions.info/tutorial.html): From Introduction to Word Boundaries 
-    
-    - [ ] [RegexOne:Learn Regular Expressions with simple, interactive exercises.](https://regexone.com/): 1-16  
-    
-    - [ ] [RegexLearn](https://regexlearn.com/): 1-18 
-    
+    - [x] [Regular Expressions Tutorial](https://www.regular-expressions.info/tutorial.html): From Introduction to Special Characters
+   
 - [x] [Markdown](https://mu-1104.github.io/Markdown-learn/)    
     
   - [x] [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) 
@@ -117,8 +113,14 @@ April
   - [x] [Awesome Markdown](https://github.com/mundimark/awesome-markdown)
     
   - [x] write an article using VScode md mode
+   
+## April 16th - April 22th    
+
+- [ ] Regular Expression   
     
-- [ ] [CS50: This is CS50x](https://cs50.harvard.edu/x/2023/): Week 0, week 1 <sup>1/2</sup>   
+    - [ ] [Regular Expressions Tutorial](https://www.regular-expressions.info/tutorial.html): From Non-Printable Characters to Dot
+    
+- [ ] [CS50: This is CS50x](https://cs50.harvard.edu/x/2023/): Week 0, week 1   
     
 - [ ] USTC Computer Networking:A Top-Down Approach Chapter 1.1 - 1.3 
     
@@ -134,7 +136,5 @@ April
     
   - [ ] [w3schools](https://www.w3schools.com/python/default.asp): File Handling, Python Modules
 
-## April 17th - April 23rd   
-
-## April 24th - April 30th   
+## April 23th - April 29th   
 
