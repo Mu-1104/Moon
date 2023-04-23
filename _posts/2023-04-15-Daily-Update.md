@@ -18,6 +18,8 @@ comments: true
 | 2023-04-19 | elliptical trainer & stretch & back workout | 50mins | done | 5 | 96 |
 | 2023-04-20 | elliptical trainer & stretch & back workout | 50mins | done | 6 | 95 |
 | 2023-04-21 | elliptical trainer & stretch & back workout | 50mins | done | 7 | 94 |
+| 2023-04-22 | elliptical trainer & stretch | 40mins | done | 8 | 93 |
+| 2023-04-23 | elliptical trainer & stretch & arms workout | 50mins | done | 9 | 92 |
 
 ## [CS Learning](https://mu-1104.github.io/CS-Learning-Log/)
 
@@ -40,3 +42,5 @@ comments: true
 | 2023-04-19 | done | 46 |
 | 2023-04-20 | done | 47 |
 | 2023-04-21 | done | 48 |
+| 2023-04-22 | done | 49 |
+| 2023-04-23 | done | 50 |
