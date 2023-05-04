@@ -26,6 +26,11 @@ comments: true
 | 2023-04-27 | elliptical trainer & stretch & arms workout & back workout & lower abs workout | 70 mins | done | 13 | 88 |
 | 2023-04-28 | elliptical trainer & stretch & arms workout & back workout & lower abs workout  | 70mins | done | 14 | 87 |
 | 2023-04-29 | elliptical trainer & stretch & arms workout & back workout & lower abs workout  | 70mins | done | 15 | 86 |
+| 2023-04-30 | elliptical trainer & stretch & arms workout & back workout & hip bridge | 70mins | done | 16 | 85 |
+| 2023-05-01 | --fell sick-- | -- | -- | -- | -- |
+| 2023-05-02 | --fell sick--  | -- | -- | -- | -- |
+| 2023-05-03 | arms workout & back workout | 20mins | done | 17 | 84 |
+| 2023-05-04 | arms workout & back workout | 20mins | done | 18 | 83 |
 
 ## [CS Learning](https://mu-1104.github.io/CS-Learning-Log/)
 
@@ -56,4 +61,7 @@ comments: true
 | 2023-04-27 | done | 54 |
 | 2023-04-28 | done | 55 |
 | 2023-04-29 | done | 56 |
-
+| 2023-04-30 | done | 57 |
+| 2023-05-01 | done | 58 |
+| 2023-05-03 | done | 59 |
+| 2023-05-04 | done | 60 |
